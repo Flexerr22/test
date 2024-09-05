@@ -1,11 +1,14 @@
 body {
-  margin-left: 177px;
-  margin-right: 230px;
+  box-sizing: border-box;
+  margin: 0;
+  padding-bottom: 2rem;
 }
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 177px;
+  margin-right: 230px;
 }
 .img {
   margin-top: 44px;
@@ -41,8 +44,9 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 220px;
-  width: 100%;
-  gap: 219px;
+  justify-content: space-between;
+  margin-left: 177px;
+  margin-right: 219px;
 }
 .profile_text {
   font-family: "Poppins", sans-serif;
@@ -57,4 +61,108 @@ body {
   background: linear-gradient(to right, #13b0f5, #ca24b4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.main {
+  margin-top: 300px;
+}
+.text_main {
+  text-align: center;
+  justify-content: center;
+}
+.primary {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 26px;
+  font-family: "Poppins", sans-serif;
+  color: #42446e;
+}
+.secondary {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+}
+.icons {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 80px;
+  margin-top: 140px;
+  margin-bottom: 214px;
+  margin-right: 201px;
+  margin-left: 177px;
+}
+.icons img {
+  width: 120px;
+  height: 120px;
+}
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  width: calc(33% - 2%);
+  max-width: 373px;
+  border-radius: 20px;
+  margin-top: 96px;
+  box-shadow: 2px 2px 100px 0px #00000033;
+}
+
+.info_block {
+  padding-left: 28px;
+  padding-right: 31px;
+  padding-bottom: 25px;
+}
+.title {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: ceter;
+}
+.description {
+  font-family: Poppins;
+  font-size: 18px;
+  width: 314px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #666666;
+}
+.footer_text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #666666;
+}
+.footer_text span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+.link_block {
+  display: flex;
+  gap: 12px;
+}
+.link_block a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: black;
 }
